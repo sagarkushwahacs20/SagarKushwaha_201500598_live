@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#hero h1 {
+    margin-left: 160px;
+    color: rgb(233, 46, 46);
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h5{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 145px;
+}
+nav ul li  {
+    margin: 0 1rem;
+    background-color: white;
+    margin: 0;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+    border-bottom: 1px solid black;
+    
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 340px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+.cardimage{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.card1{
+    background-image: url('https://images.pexels.com/photos/6595786/pexels-photo-6595786.jpeg?auto=compress&cs=tinysrgb&w=600')
+}
+.card2{
+    background-image: filepath;
+    background-image: url('https://media.istockphoto.com/photos/loading-the-container-in-the-cargo-airplane-picture-id1250106372?k=20&m=1250106372&s=612x612&w=0&h=nXKDrhetQ_rH_YDUPMMe5fRSO0MBe0fh7d7sIALZ57M=');
+}
+.card3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJlgsnldcrJT4udI7YJzi1jbyDaBP3XQI5w&usqp=CAU');
+}
+.card a{
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(233, 46, 46);
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 20px;
+}
